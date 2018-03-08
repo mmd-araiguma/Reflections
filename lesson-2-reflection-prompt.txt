@@ -1,15 +1,29 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+     it's made git's hidden file. the file has in many data to need
+     use git.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+     working directory's image is working space writing source code.
+     staging area's image is files made working directory, packing
+     box to enter repository.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	using git log --staged, check repository and staging area.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	 if you want to make new feat or difficult bug fix, you can restart
+	 before problem commit to branch.
+
 How do the diagrams help you visualize the branch structure?
+
+    you can view when file branch or marge to show using lines.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
