@@ -27,4 +27,5 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    before update master, if the update data has serious bug, many people are 
+    trouble. then, updata check by creating branch.
